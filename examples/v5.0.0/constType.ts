@@ -8,7 +8,10 @@ const routes = <const T>(routes: T[]) => {
     }
 }
 
-
 const router = routes(['/users', '/posts', 'admin/users'])
 
-router.addRedirect('', '')
+/**
+ * you get autocomplete and type check for the only accepting those routes as params
+ * T becomes type ['/users', '/posts', 'admin/users'] instead of before it was type string
+ */
+router.addRedirect('/posts', 'admin/users')
