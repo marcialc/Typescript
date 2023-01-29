@@ -1,0 +1,19 @@
+{
+  "name": "typescript-examples",
+  "version": "1.0.0",
+  "description": "typescript cool examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "react-scripts start"
+  },
+  "author": "Marcial Cabrera",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.1.0",
+    "react-scripts": "5.0.1",
+    "typescript": "^5.0.0-beta",
+    "web-vitals": "^2.1.4"
+  }
+}
